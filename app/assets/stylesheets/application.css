@@ -1,0 +1,145 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+html{
+    position: relative;
+    min-height: 100%; 
+} 
+body{
+    margin:0px;
+    padding:0px;
+    margin-bottom:350px;
+}
+
+
+.navbar{
+    border-radius: 0%;
+    padding-bottom: 5px;
+    margin-bottom:3px;
+    border-bottom-color: #4c8b98;
+    height :40px;
+}
+
+.navbar-default {
+    background-color: #4c8b98;
+    border-color: #e7e7e7;
+}
+
+h1{
+    font-family:'Raleway', sans-serif;;
+}
+h3{
+    font-family:'Raleway', s ans-serif;;
+}
+em{
+     font-family:'Raleway', sans-serif;;
+}
+.cat img{
+    width: 32px;
+    height: 32px;
+}
+.cat{
+    margin-left:12%;
+}
+
+
+.carousel1-control {
+  padding-top:5%;
+  width:5%;
+}
+.adm img{
+    width: 40px;
+    height: 40px;
+}
+
+.carin img{
+    width: 40px;
+    height: 40px;
+}
+.person img{
+    width: 40px;
+    height: 40px;
+}
+#searchf{
+    margin-left: 10%;
+}
+.form-control{
+    display: inline-block;
+    width: 80%;
+    margin-top:10px;
+}
+
+.footer{
+    background-color:#4c8b98;
+    color:white;
+    margin-top:4px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 350px;
+}
+.footer img{
+    padding-top:5%;
+    margin-left:25%;
+}
+.well img{
+   
+margin-left:2%;
+float:left; 
+height:100px;
+width:100px;	
+} 
+.preco{
+    padding-top: 5px;
+    color:#D02121;
+    font-family:Tahoma;
+    font-size: 200%;
+}
+.container4{
+    margin-left: auto;
+    width: 100%;
+    border-top: 2px solid white;
+   
+}
+#footerlogo{
+   margin-left:25%;
+}
+#inlogo{
+    margin-right:25%; 
+}
+/* CSS LOGIN*/
+#cadastro{
+    font-family:'Raleway', sans-serif;;
+    font-size:180%;
+}
+/* CSS CART*/
+#subtotal{
+    margin-left:80%;
+    margin-top:12%;
+}
+/* CSS Painel*/
+#links{
+    font-family: Century Gothic, sans-serif;
+}
+
+
+
+
+
+
+
+
+

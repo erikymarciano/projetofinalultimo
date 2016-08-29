@@ -1,0 +1,25 @@
+<section id="login">
+<h1>Login</h1>
+<div class="well">
+  <div class="item">
+      <div class="row">
+            <div class ="col-sm-3">
+              <div class="form-wrap">
+                <%= form_for(:session, url: login_path) do |f| %>
+                    <div class="field">
+                    <%= f.label :email %>
+                    <%= f.email_field :email %>
+                    <div class="field">
+                    <%= f.label :password %>
+                    <%= f.password_field :password %>
+                    <%= f.submit "Log in" %>
+                  <% end %>
+                  <p>Ainda não é cadastrado?</p>
+        <p id="cadastro"><%= link_to 'Criar novo usuário', new_user_path %></p>
+        </div><!-- wrap -->
+        </div><!-- col -->
+      </div><!-- row -->
+    </div><!-- item -->
+</div><!--well -->
+
+</section>

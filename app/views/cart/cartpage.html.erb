@@ -1,0 +1,30 @@
+
+<h1>Meu Carrinho</h1>
+<div class="well">
+    <div class="item">
+        <div class="row">
+             <div class ="col-sm-1">
+            </div>
+            <div class ="col-sm-1">
+                <%= image_tag 'didatico1.jpg' %>
+            </div>
+            <div class ="col-sm-2">
+                <p>A Simetria da matematica</p>
+            </div>
+            <div class ="col-sm-2">
+                <p>Quantidade:1</p>
+            </div>
+             <div class ="col-sm-3">
+               <p class="preco"> R$ 100,00 </p>
+            </div>
+            <div class ="col-sm-1">
+                <button><%= link_to 'Continuar Comprando', catalogo_path %></button>
+            </div>
+        </div><!-- row -->
+    </div><!-- item -->
+</div><!--well -->
+<div "col-sm-3" id="subtotal" >
+    <h3>Sub-Total : R$ 100</h3>
+             <button>Finalizar Compra</button>
+            
+</div>

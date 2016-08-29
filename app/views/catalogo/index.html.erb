@@ -1,0 +1,29 @@
+<h1>Livros Disponiveis</h1>
+<div class = "well">
+    <div class = "itens">
+    <div class = "row">
+        <table>
+          <tr>
+            <th>Nome</th>
+            <th>Preço</th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+
+  <% @books.each do |book| %>
+ <tr>
+      <td><%= book.name %></td>
+      <td><%= book.price %></td>
+      <td><button><%= link_to "Informações", book %></td></button>
+      <td><button><%= link_to "Adicionar ao carrinho", book %></td></button>
+    </tr>
+   <% end %>
+</table>
+</div>
+</div>
+</div>
+
+
+
+<br>
